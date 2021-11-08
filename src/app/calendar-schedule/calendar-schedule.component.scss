@@ -1,0 +1,249 @@
+$inhabil-color: #F9C4C6;
+$planificado-color: #F5EAB5;
+$reducido-color: #A4ADBA;
+$ok-color: #5FBA6B;
+$sin-planificacion-color: white;
+$particularizacion-color: #CEE1F2;
+$bloquedo-color: #E2D5E7;
+$help-color: #A44D5E;
+
+.header {
+  height: 55px;
+  padding-top: 10px;
+  padding-left: 30px;
+  color: #333A42;
+}
+
+.sub-header {
+  height: 40px;
+  padding-top: 5px;
+  color: #55505F;
+}
+
+.back-white {
+  background-color: white;
+}
+
+.padding-top-5 {
+  padding-top: 5px;
+}
+
+.detalle {
+  height: 40px;
+  border: solid 1.5px #DFDFDF;
+}
+
+.horario-detail {
+  padding-top: 5px;
+  color: #7F8386;
+}
+
+.back-pink1 {
+  background-color: #EFD0D8;
+}
+
+.dia-container {
+  border: solid 1px #403435;
+}
+
+.dia-container .planificado,
+.dia-container .planificado-1,
+.dia-container .planificado-2,
+.dia-container .planificado-3,
+.dia-container .planificado-4 {
+  border-bottom: solid 1px #403435;
+}
+
+.inhabil {
+  background-color: $inhabil-color;
+}
+
+
+.bloqueo {
+  background-color: $bloquedo-color;
+}
+
+.bloqueo-2 {
+  background-color: $bloquedo-color;
+  height: 80px;
+}
+
+.bloqueo-3 {
+  background-color: $bloquedo-color;
+  height: 120px;
+}
+
+.bloqueo-4 {
+  background-color: $bloquedo-color;
+  height: 160px;
+}
+
+.particularizacion {
+  background-color: $particularizacion-color;
+}
+
+.particularizacion-2 {
+  background-color: $particularizacion-color;
+  height: 80px;
+}
+
+.particularizacion-3 {
+  background-color: $planificado-color;
+  height: 120px;
+}
+
+.particularizacion-4 {
+  background-color: $planificado-color;
+  height: 160px;
+}
+
+
+.planificado {
+  background-color: $planificado-color;
+}
+
+.planificado-2 {
+  background-color: $planificado-color;
+  height: 80px;
+}
+
+.planificado-3 {
+  background-color: $planificado-color;
+  height: 120px;
+}
+
+.planificado-4 {
+  background-color: $planificado-color;
+  height: 160px;
+}
+
+.cupo-reducido {
+  background-color: $reducido-color;
+}
+
+.cupo-reducido .horario-detail {
+  color: white !important;
+}
+
+.cupo-ok {
+  background-color: $ok-color;
+  color: white !important;
+}
+
+.cupo-ok .horario-detail {
+  color: white !important;
+}
+
+.sin-planificacion {
+  background-color: $sin-planificacion-color;
+  height: 200px;
+}
+
+.img-icon {
+  padding: 3px;
+  width: 40px;
+}
+
+.clock-icon {
+  padding: 3px;
+  width: 35px;
+}
+
+.user-icon {
+  width: 35px;
+}
+
+
+.no-padding-v {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.dia-content {
+
+}
+
+.font-lg {
+  font-size: 18pt;
+}
+
+.font-md {
+  font-size: 15pt;
+}
+
+.font-sm {
+  font-size: 11pt;
+}
+
+.font-xs {
+  font-size: 10pt;
+}
+
+
+.help-container {
+  border: solid 2px $help-color;
+}
+
+.help-container .title {
+  color: $help-color;
+  font-weight: bold;
+}
+
+
+.dot-inhabil {
+  height: 20px;
+  width: 20px;
+  background-color: $inhabil-color;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.dot-reduccion {
+  height: 20px;
+  width: 20px;
+  background-color: $reducido-color;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.dot-planificado {
+  height: 20px;
+  width: 20px;
+  background-color: $planificado-color;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.dot-ok {
+  height: 20px;
+  width: 20px;
+  background-color: $ok-color;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.dot-particularizacion {
+  height: 20px;
+  width: 20px;
+  background-color: $particularizacion-color;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+
+.dot-bloqueo {
+  height: 20px;
+  width: 20px;
+  background-color: $bloquedo-color;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.dot-sin-planeacion {
+  height: 20px;
+  width: 20px;
+  background-color: $sin-planificacion-color;
+  border: solid 1px grey;
+  border-radius: 50%;
+  display: inline-block;
+}

@@ -2,26 +2,32 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.4.
 
-## Development server
+## Requerimientos
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+####Bootstrap 5 
+######Si no se tiene instalado bootstrap, entonces ejecutar:
 
-## Code scaffolding
+`npm install bootstrap --save`
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+** Tambien importar bootstrap, agregar:
 
-## Build
+    @import 'bootstrap/dist/css/bootstrap.css'; 
+** en el archivo:
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+    styles.scss
 
-## Running unit tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+##Uso
 
-## Running end-to-end tests
+####-Copiar la carpeta `calendar-schedule` de la ruta `/calendar/src/app/calendar-schedule` a tu proyecto.
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+####-Importa el modulo `CalendarScheduleModule` en `AppModule` o en el modulo donde lo utilices
+####-Usar el componente: `<app-calendar-schedule></app-calendar-schedule>`
 
-## Further help
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+#Preview
+
+
+Pantalla 1: ![Pantalla 1](./screen1.png)
+
+Pantalla 2: ![Pantalla 1](./screen2.png)
