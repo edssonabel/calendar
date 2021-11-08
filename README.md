@@ -4,8 +4,8 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Requerimientos
 
-####Bootstrap 5 
-######Si no se tiene instalado bootstrap, entonces ejecutar:
+#### Bootstrap 5 
+###### Si no se tiene instalado bootstrap, entonces ejecutar:
 
 `npm install bootstrap --save`
 
@@ -17,15 +17,15 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
     styles.scss
 
 
-##Uso
+## Uso
 
-####-Copiar la carpeta `calendar-schedule` de la ruta `/calendar/src/app/calendar-schedule` a tu proyecto.
+#### -Copiar la carpeta `calendar-schedule` de la ruta `/calendar/src/app/calendar-schedule` a tu proyecto.
 
-####-Importa el modulo `CalendarScheduleModule` en `AppModule` o en el modulo donde lo utilices
-####-Usar el componente: `<app-calendar-schedule></app-calendar-schedule>`
+#### -Importa el modulo `CalendarScheduleModule` en `AppModule` o en el modulo donde lo utilices
+#### -Usar el componente: `<app-calendar-schedule></app-calendar-schedule>`
 
 
-#Preview
+# Preview
 
 
 Pantalla 1: ![Pantalla 1](./screen1.png)
